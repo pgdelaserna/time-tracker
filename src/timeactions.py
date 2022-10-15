@@ -90,7 +90,6 @@ class TimeTracker:
 
           # Compute delta
           time_worked = self.time_out - self.time_in
-          print(str(time_worked))
 
     self.write_to_file(self.time_out, 'TIME_OUT', time_worked)
 
